@@ -1,6 +1,5 @@
 # Next
 
-* add ... blog post in markdown
 * add logo
 * simple theming (bootstrap?)
 * deploy
