@@ -1,8 +1,8 @@
 import React from 'react'
 
 // Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
+// import 'typeface-montserrat'
+// import 'typeface-merriweather'
 
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
@@ -18,7 +18,7 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Christian Genco`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -28,10 +28,7 @@ class Bio extends React.Component {
         />
         <p>
           Written by <a href="http://christian.gen.co">Christian Genco</a> in
-          Dallas Texas.{' '}
-          <a href="https://twitter.com/cgenco">
-            You should follow him on Twitter
-          </a>
+          Dallas Texas. <a href="https://twitter.com/cgenco">@cgenco</a>
         </p>
       </div>
     )

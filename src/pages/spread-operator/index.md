@@ -3,7 +3,7 @@ title: JSX Spread Operator
 date: "2018-03-24"
 ---
 
-Commonly in React JSX code, you will see three dots used in code like this: `<Modal {...this.props} />`
+Commonly in React JSX code, you will see three dots used in code like this: `jsx: <Modal {...this.props} />`
 
 It can be confusing if you've never seen this before. Are the three dots part of JSX? Is it called an [ellipsis](https://en.wikipedia.org/wiki/Ellipsis) like in english grammar? What is it doing?
 

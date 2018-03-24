@@ -2,6 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
 
+import 'prismjs/themes/prism-tomorrow.css'
+import './style.css'
+
 import { rhythm, scale } from '../utils/typography'
 
 class Template extends React.Component {
@@ -31,6 +34,11 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
+            <img
+              src="/logo-small.png"
+              alt=""
+              style={{ maxHeight: '1em', marginBottom: 0, marginRight: '5px' }}
+            />
             Tracing Ducks
           </Link>
         </h1>
@@ -52,7 +60,12 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            <img
+              src="/logo-small.png"
+              alt=""
+              style={{ maxHeight: '1em', marginBottom: 0, marginRight: '5px' }}
+            />
+            Tracing Ducks
           </Link>
         </h3>
       )
