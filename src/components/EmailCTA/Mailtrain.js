@@ -35,33 +35,45 @@ export class Mailtrain extends Component {
     const { first, last, email } = this.state
     return (
       <div className="card">
-        <h2>Join the Tracing Ducks Newsletter</h2>
-        <p>
-          Sign up to the Tracing Ducks email list to get more helpful articles
-          in the future
-        </p>
-        <form onSubmit={this.onSubmit}>
-          <label htmlFor="">First name</label>
-          <input
-            type="text"
-            value={first}
-            onChange={e => this.setState({ first: e.target.value })}
-          />
-          {/* <input
-            type="text"
-            value={last}
-            onChange={e => this.setState({ last: e.target.value })}
-          /> */}
-          <label htmlFor="">Email Address</label>
-          <input
-            type="email"
-            value={email}
-            onChange={e => this.setState({ email: e.target.value })}
-          />
+        <h2>Email List</h2>
 
-          <button type="submit" className="btn btn-primary">
-            Subscribe
-          </button>
+        <form className="pure-form pure-form-stacked" onSubmit={this.onSubmit}>
+          <fieldset>
+            <legend>
+              Sign up for the Tracing Ducks email list to get more useful stuff
+            </legend>
+            <div className="pure-g">
+              <div className="pure-u-1 pure-u-md-1-3">
+                <label htmlFor="email">First name</label>
+                <input
+                  type="text"
+                  placeholder="Jane Doe"
+                  value={first}
+                  onChange={e => this.setState({ first: e.target.value })}
+                />
+                <span className="pure-form-message">{''}</span>
+              </div>
+
+              <div className="pure-u-1 pure-u-md-1-3">
+                <label htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  placeholder="you@example.com"
+                  value={email}
+                  onChange={e => this.setState({ email: e.target.value })}
+                />
+              </div>
+              <div className="pure-u-1 pure-u-md-1-3">
+                <label htmlFor="stylesheet">&nbsp;</label>
+                <button
+                  type="submit"
+                  className="pure-button pure-button-primary"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </fieldset>
         </form>
       </div>
     )

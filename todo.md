@@ -1,6 +1,6 @@
 # Next
 
-* convertkit
+* email list
 * deploy
 * move domain
 * google analytics
