@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
+import Helmet from 'react-helmet'
 
 import 'prismjs/themes/prism-tomorrow.css'
 import './style.css'
@@ -77,6 +78,14 @@ class Template extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
+        <Helmet>
+          {/* <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+          /> */}
+        </Helmet>
         {header}
         {children()}
       </Container>
