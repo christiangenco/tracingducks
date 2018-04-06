@@ -25,6 +25,7 @@ class CTA extends Component {
     const { profile } = this.state;
 
     if (profile) {
+      return <p>Thanks for subscribing :D</p>;
       return <pre>{JSON.stringify(profile, null, 2)}</pre>;
     }
 
