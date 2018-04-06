@@ -1,1 +1,2 @@
-gatsby build
+# gatsby build
+git push

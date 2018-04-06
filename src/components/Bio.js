@@ -14,22 +14,24 @@ class Bio extends React.Component {
         style={{
           display: 'flex',
           marginBottom: rhythm(2.5),
+          alignItems: 'center',
+          justifyContent: 'flex-end',
         }}
       >
+        <p style={{ marginBottom: 0 }}>
+          by <a href="http://christian.gen.co">Christian Genco</a>
+        </p>
         <img
           src={profilePic}
           alt={`Christian Genco`}
           style={{
-            marginRight: rhythm(1 / 2),
+            marginLeft: rhythm(1 / 2),
             marginBottom: 0,
             width: rhythm(2),
             height: rhythm(2),
+            borderRadius: '50%',
           }}
         />
-        <p>
-          Written by <a href="http://christian.gen.co">Christian Genco</a> in
-          Dallas Texas. <a href="https://twitter.com/cgenco">@cgenco</a>
-        </p>
       </div>
     )
   }

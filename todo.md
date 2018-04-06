@@ -1,17 +1,10 @@
 # Next
 
-* email list
-* deploy
-* move domain
+* if user signs up to the email list, store their info in localStorage
 * google analytics
+* post about absolute import paths
 
 ---
-
-<!--
-<link href="https://fonts.googleapis.com/css?family=Istok+Web|Lora" rel="stylesheet">
-font-family: 'Istok Web', sans-serif;
-font-family: 'Lora', serif;
--->
 
 ---
 

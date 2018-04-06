@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 
 import Bio from '../components/Bio'
-import EmailCTA from '../components/EmailCTA'
+import CTA from '../components/CTA'
 import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
@@ -34,7 +34,7 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-        <EmailCTA />
+        <CTA />
 
         <ul
           style={{
