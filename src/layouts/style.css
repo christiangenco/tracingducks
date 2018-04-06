@@ -17,3 +17,19 @@ h1, h2, h3, h4, h5, h6, button, label {
   margin-top: 0;
   padding-top: 0;
 }
+
+.loading {
+  animation: pulse 1.8s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
